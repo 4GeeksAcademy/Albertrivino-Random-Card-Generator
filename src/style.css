@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-mesa-poquer-diseno-plano_23-2151047002.jpg?t=st=1720426872~exp=1720430472~hmac=583666339c3dc0669a0290822b5d7c522f42463fb702ab28ca528a166d503e22&w=1380");
+  object-fit: cover;
+}
+.carta {
+  margin-block: 50px;
+  width: 421px;
+  border-radius: 35px;
+}
+
+.columna1 {
+  height: 600px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10em;
+}
+
+.icon {
+  font-size: 8em;
+}
